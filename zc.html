@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>注册</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bxslider.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bxslider.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script language="javaScript">
+    </script>
+</head>
+<body>
+    <header>
+        <!-- 固定导航 -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+				<div class="navbar-header">
+				    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				    </button>
+				    <a href="javascript:;"><img src="images/logo.png" class="logo"></a>
+				</div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-nav-c">
+                        <li><a href="index.html">网站首页</a></li>
+                        <li><a href="jianjie.html">网站简介</a></li>
+                        <li class="dropdown">
+                            <a href="pro.html">产品中心</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="news.html">新闻中心</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="xia.html">下载中心</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="ce.html">网站相册</a>
+                        </li>
+                        <li><a href="liu.html">在线留言</a></li>
+                        <li><a href="we.html">联系我们</a></li>
+                        <li><a href="zc.html">注册</a></li>
+                        <li><a href="dl.html">登录</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="page_bg" style="background: url(images/57356d18dfece.jpg) center top no-repeat;"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-md-9" style="float:right">
+                <div class="list_box">
+                    <h2 class="left_h">注册</h2>
+                    <div class="feedback">
+                        <form id="myform" name="myform" class="form-horizontal" method="post" action="javascript:;?m=Feedback&a=check&g=c" onsubmit="return CheckJob()">
+                            <div class="form-group">
+                                <label for="title" class="col-sm-3 control-label">账号：</label>
+                                <div class="col-sm-6">
+                                    <input type="text" name="title" class="form-control" id="title" placeholder="账号">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="username" class="col-sm-3 control-label">密码：</label>
+                                <div class="col-sm-6">
+                                    <input type="password" name="name" class="form-control" id="username" placeholder="密码">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="tel" class="col-sm-3 control-label">确认密码：</label>
+                                <div class="col-sm-6">
+                                    <input type="password" name="tel" class="form-control" id="tel" placeholder="确认密码">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail" class="col-sm-3 control-label">电子邮箱：</label>
+                                <div class="col-sm-6">
+                                    <input type="email" name="email" class="form-control" id="inputEmail" placeholder="电子邮箱">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="add" class="col-sm-3 control-label">电话号码：</label>
+                                <div class="col-sm-6">
+                                    <input type="text" name="add" class="form-control" id="add" placeholder="电话号码">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="code" class="col-xs-12 col-sm-3 control-label">验证码：</label>
+                                <div class="col-xs-7 col-sm-2">
+                                    <input type="text" name="code" class="form-control" id="code" placeholder="验证码">
+                                </div>
+                                <div class="col-xs-2 col-sm-1"><img class="codeimg" src="images/yzm.jpg"></div>
+                            </div>
+                            <div class="form-group" style="margin-top:30px;">
+                                <div class="col-sm-offset-3 col-sm-10">
+                                    <button type="submit" name="button" value="Send" class="btn btn-danger page-btn">注册</button>&nbsp;
+                                    <button type="reset" name="reset" class="btn btn-default grey-btn">重新填写</button>
+                                </div>
+                            </div>
+                            <input type="hidden" name="__hash__" value="0f983a6c68651098de218418eced7857_0db4815ae113be2587b6c8e17f1e485b">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+    <footer class="footer">
+        <div class="container">
+            <div class="b-nav" data-wow-delay=".1s">
+                <a href="index.html">首 页</a>
+                <a href="pro.html">产品中心</a>
+                <a href="news.html">新闻资讯</a>
+                <a href="jianjie.html">网站简介</a>
+                <a href="we.html">联系我们</a>
+            </div>
+            <p data-wow-delay=".3s">Copyright 2011-2016 服装设计 | HTML</p>
+            <p data-wow-delay=".5s">京ICP备********号-1</p>
+        </div>
+    </footer>
+</body>
+</html>
